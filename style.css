@@ -1,0 +1,58 @@
+/* Change this value to resize the screenshots; their original proportions are preserved. */
+:root { --screenshot-width: 450px; }
+
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #30302e; background: #fff; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+main { max-width: 1120px; margin: 0 auto; padding: 76px 40px 28px; }
+.page-header { margin-bottom: 45px; }
+.app-icon { display: block; border-radius: 20px; margin-bottom: 19px; }
+h1, h2, h3, p { margin-top: 0; }
+h1 { margin-bottom: 0; font-size: clamp(32px, 4vw, 42px); line-height: 1.25; letter-spacing: -1.3px; font-weight: 750; }
+.platform { color: #767570; margin: 8px 0 0; }
+h2 { margin-bottom: 12px; font-size: 25px; line-height: 1.4; letter-spacing: -.5px; }
+h3 { font-size: 19px; margin: 27px 0 10px; }
+.intro h2 span { color: #a4682f; }
+p { margin-bottom: 16px; }
+.gallery { position: relative; margin-top: 25px; }
+.screenshots { display: flex; align-items: center; gap: 28px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
+.gallery.has-scroll-control .screenshots { scrollbar-width: none; }
+.gallery.has-scroll-control .screenshots::-webkit-scrollbar { display: none; }
+figure { flex: 0 0 var(--screenshot-width); margin: 0; min-width: 0; }
+figure a { display: block; width: 100%; border-radius: 12px; }
+figure img { display: block; width: 100%; height: auto; }
+.gallery-captions { display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 0; color: #6b6a66; font-size: 14px; line-height: 24px; text-align: left; }
+.gallery-scroll { display: block; width: 104px; height: 22px; margin: 10px 0 2px; padding: 0; appearance: none; -webkit-appearance: none; background: transparent; cursor: ew-resize; }
+.gallery-scroll[hidden] { display: none; }
+.gallery-scroll::-webkit-slider-runnable-track { height: 3px; border-radius: 4px; background: #e4e3df; }
+.gallery-scroll::-webkit-slider-thumb { appearance: none; -webkit-appearance: none; width: 26px; height: 5px; margin-top: -1px; border: 0; border-radius: 4px; background: #8c8a84; }
+.gallery-scroll::-moz-range-track { height: 3px; border-radius: 4px; background: #e4e3df; }
+.gallery-scroll::-moz-range-thumb { width: 26px; height: 5px; border: 0; border-radius: 4px; background: #8c8a84; }
+.gallery-scroll:hover::-webkit-slider-thumb { background: #55534e; }
+.gallery-scroll:focus-visible, .screenshots:focus-visible { outline: 2px solid #4285d4; outline-offset: 4px; border-radius: 3px; }
+.description { margin-top: 46px; text-align: left; }
+ol { margin: 0; padding-left: 25px; }
+li { padding-left: 4px; margin: 6px 0; }
+.download-section { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 22px; border-top: 1px solid #e9e8e5; margin-top: 42px; padding: 30px 0; }
+.download-section h2 { font-size: 22px; margin-bottom: 5px; }
+.download-section p { color: #6b6a66; margin-bottom: 0; }
+.release-details { font-size: 14px; margin-top: 5px; }
+.download-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 10px 21px; background: #30302e; color: #fff; border-radius: 7px; font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.download-button:hover { background: #4c4b47; }
+.download-button[aria-disabled="true"] { background: #efefed; color: #767570; cursor: default; }
+a { color: inherit; text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #4285d4; outline-offset: 5px; }
+footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px; border-top: 1px solid #e9e8e5; padding-top: 22px; color: #777570; font-size: 13px; }
+footer nav { display: flex; gap: 22px; }
+footer a { text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+@media (max-width: 700px) {
+  main { padding: 38px 23px 24px; }
+  .page-header { margin-bottom: 32px; }
+  .app-icon { width: 72px; height: 72px; }
+  h2 { font-size: 22px; }
+  .screenshots { gap: 18px; }
+  figure { flex-basis: min(var(--screenshot-width), 88%); }
+  .description { margin-top: 32px; }
+  .download-section { align-items: flex-start; flex-direction: column; }
+}

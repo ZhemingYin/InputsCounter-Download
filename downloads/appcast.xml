@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>InputCounter</title>
+        <item>
+            <title>2.5</title>
+            <pubDate>Mon, 28 Sep 2026 20:50:29 +0800</pubDate>
+            <sparkle:version>20260928</sparkle:version>
+            <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://zhemingyin.github.io/InputsCounter-Download/downloads/InputsCounter-2.5.dmg" length="6959616" type="application/octet-stream" sparkle:edSignature="4GS9bS8y3nwy1YW9EMiNhiz54+XNSC0h76ddL6YukM5uB9Nb5hir5Qo2XNUrSGuWN6cwB7/ZeGz9hdlV87CABg=="/>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="InputsCounter for Mac: count your typing, discover your daily patterns, and switch input sources per app. Your typing content stays private.">
+  <meta name="theme-color" content="#ffffff">
+  <title>InputsCounter — A typing counter for Mac</title>
+  <link rel="icon" type="image/webp" href="assets/app-icon.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="download.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <img class="app-icon" src="assets/app-icon.webp" width="88" height="88" alt="InputsCounter app icon">
+      <h1>InputsCounter</h1>
+      <p class="platform">A typing counter and automatical input switch for specific Apps on Mac</p>
+    </header>
+
+    <section class="intro" aria-labelledby="welcome-title">
+      <h2 id="welcome-title">Welcome to <span>InputsCounter</span> 🌟</h2>
+      <p>Here are some main interfaces of the InputsCounter app.</p>
+      <div class="gallery">
+      <div class="screenshots" id="screenshots" tabindex="0" role="region" aria-label="App screenshots — scroll horizontally to explore" aria-describedby="gallery-captions">
+        <figure>
+          <a href="assets/welcome.webp" target="_blank" rel="noopener" aria-label="View the welcome screen at full size (opens a new tab)">
+            <img src="assets/welcome.webp" width="2048" height="1605" alt="InputsCounter welcome screen over the main dashboard">
+          </a>
+        </figure>
+        <figure>
+          <a href="assets/overview.webp" target="_blank" rel="noopener" aria-label="View the activity overview at full size (opens a new tab)">
+            <img src="assets/overview.webp" width="2048" height="1605" alt="Activity dashboard with calendar, per-app typing counts, weekly trend, and categories">
+          </a>
+        </figure>
+        <figure>
+          <a href="assets/widgets.webp" target="_blank" rel="noopener" aria-label="View the desktop widgets at full size (opens a new tab)">
+            <img src="assets/widgets.webp" width="1080" height="720" alt="Desktop widgets showing typing counts and calendar activity">
+          </a>
+        </figure>
+      </div>
+      <p class="gallery-captions" id="gallery-captions">
+        <span>Left: InputsCounter hello page.</span>
+        <span>Medium: InputsCounter main window.</span>
+        <span>Right: InputsCounter widgets.</span>
+      </p>
+      <input class="gallery-scroll" type="range" min="0" max="100" step="0.1" value="0" aria-label="Scroll screenshots horizontally" aria-controls="screenshots" hidden>
+      
+      </div>
+    </section>
+
+    <section class="description" aria-labelledby="description-title">
+      <h2 id="description-title">Descriptions</h2>
+      <p>InputsCounter counts your keyboard inputs to help you understand how you use your Mac. See which apps and categories you type in most, explore your weekly trends, and switch input sources automatically when you change apps.</p>
+      <p><strong>Your words stay yours.</strong> InputsCounter records only typing counts, never what you type. Your statistics are stored locally on your Mac.</p>
+      <h3>Key features</h3>
+      <ol>
+        <li>Keep track of your daily typing count.</li>
+        <li>Monitor typing counts for the apps you choose.</li>
+        <li>Switch the input source automatically for each app.</li>
+        <li>See your typing activity and trends over the last week.</li>
+        <li>Explore typing counts across different app categories.</li>
+        <li>A native interface with Liquid Glass on supported macOS versions.</li>
+        <li>Available in English, Simplified Chinese, and German.</li>
+      </ol>
+    </section>
+
+    <section class="download-section" aria-labelledby="download-title">
+      <div>
+        <h2 id="download-title">Download for Mac</h2>
+        <p id="download-status" role="status" aria-live="polite">The DMG download will be available here soon.</p>
+        <p id="release-details" class="release-details" hidden></p>
+      </div>
+      <a id="download-button" class="download-button" aria-disabled="true">Download coming soon</a>
+      <noscript><p>Enable JavaScript to see the latest download, or visit the <a href="https://github.com/ZhemingYin/InputsCounter-Download/releases">repository’s releases</a>.</p></noscript>
+    </section>
+
+    <footer>
+      <span>🌟 InputsCounter </span>
+      <nav aria-label="More information">
+        <a href="https://shard-tadpole-b94.notion.site/InputsCounter-28c6c79cec1a806db4edfc4c4180fdb1">Notion</a>
+        <a href="https://github.com/ZhemingYin/InputsCounter-Download">GitHub</a>
+      </nav>
+    </footer>
+  </main>
+</body>
+</html>
