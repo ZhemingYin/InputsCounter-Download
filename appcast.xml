@@ -4,6 +4,14 @@
         <title>InputCounter</title>
         <item>
             <title>2.5</title>
+            <pubDate>Wed, 30 Sep 2026 11:50:15 +0800</pubDate>
+            <sparkle:version>20260929</sparkle:version>
+            <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://zhemingyin.github.io/InputsCounter-Download/downloads/InputsCounter-2.5.dmg" length="6964736" type="application/octet-stream" sparkle:edSignature="hs/P8FFW2ttFlExEL+s4V4kBFPSXP+XRCGJEEbFH9dWegqevw8/lJqQ0bfdASvr1f0f80vMlU6f6sCGcITKxDA=="/>
+        </item>
+        <item>
+            <title>2.5</title>
             <pubDate>Mon, 28 Sep 2026 20:50:29 +0800</pubDate>
             <sparkle:version>20260928</sparkle:version>
             <sparkle:shortVersionString>2.5</sparkle:shortVersionString>
